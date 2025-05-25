@@ -1,6 +1,8 @@
 import torch
 from comfy.model_management import get_torch_device
 
+print("Loading Custom Node...")  # Debug print
+
 class CustomNode:
     """
     自定义节点示例
@@ -29,4 +31,6 @@ NODE_CLASS_MAPPINGS = {
 # 节点显示名称
 NODE_DISPLAY_NAME_MAPPINGS = {
     "CustomNode": "Custom Node"
-} 
+}
+
+print("Custom Node registered:", NODE_CLASS_MAPPINGS)  # Debug print 
