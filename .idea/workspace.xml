@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5bdcc49-6ebf-442f-9d50-a5b6c2474c8c" name="Changes" comment="Custom Node">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f5bdcc49-6ebf-442f-9d50-a5b6c2474c8c" name="Changes" comment="works.">
       <change beforePath="$PROJECT_DIR$/custom_nodes.py" beforeDir="false" afterPath="$PROJECT_DIR$/custom_nodes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,13 +94,30 @@
       <option name="project" value="LOCAL" />
       <updated>1748185511428</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="works.">
+      <option name="closed" value="true" />
+      <created>1748185956320</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1748185956320</updated>
+    </task>
+    <task id="LOCAL-00005" summary="works.">
+      <option name="closed" value="true" />
+      <created>1748185961924</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1748185961924</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="sample" />
     <MESSAGE value="Custom Node" />
-    <option name="LAST_COMMIT_MESSAGE" value="Custom Node" />
+    <MESSAGE value="works." />
+    <option name="LAST_COMMIT_MESSAGE" value="works." />
   </component>
 </project>

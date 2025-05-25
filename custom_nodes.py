@@ -3,34 +3,34 @@ from comfy.model_management import get_torch_device
 
 print("Loading Custom Node...")  # Debug print
 
-class CustomNode:
+class NumberIncrementNode:
     """
-    自定义节点示例
+    数字加1节点
     """
     @classmethod
     def INPUT_TYPES(s):
         return {
             "required": {
-                "input": ("STRING", {"default": "Hello World"}),
+                "number": ("INT", {"default": 0, "min": -1000000, "max": 1000000}),
             },
         }
     
-    RETURN_TYPES = ("STRING",)
-    FUNCTION = "process"
+    RETURN_TYPES = ("INT",)
+    FUNCTION = "increment"
     CATEGORY = "custom"
 
-    def process(self, input):
-        # 在这里处理输入并返回结果
-        return (input,)
+    def increment(self, number):
+        # 数字加1
+        return (number + 1,)
 
 # 节点注册
 NODE_CLASS_MAPPINGS = {
-    "CustomNode": CustomNode
+    "NumberIncrement": NumberIncrementNode
 }
 
 # 节点显示名称
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "CustomNode": "Custom Node"
+    "NumberIncrement": "Number +1"
 }
 
 print("Custom Node registered:", NODE_CLASS_MAPPINGS)  # Debug print 
